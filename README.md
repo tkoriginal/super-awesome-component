@@ -10,5 +10,5 @@ npm i super-awesome-component
 
 ```import awesome from 'super-awesome-component'```
 
-```<awesome name='Tauqueer'>```
+```<awesome name='Tauqueer'/>```
 
