@@ -1,1 +1,1 @@
-module.exports = props => `Hello Hello {props.name.split('').reverse().join()}`
+module.exports = props => `Hello Hello ${props.name.split('').reverse().join()}`
