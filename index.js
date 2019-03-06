@@ -1,0 +1,1 @@
+module.export = props => `Hello Hello {props.name.reverse()}`
