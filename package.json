@@ -2,8 +2,9 @@
   "name": "super-awesome-component",
   "version": "0.1.3",
   "description": "A super awesome react component!!!",
-  "main": "index.js",
+  "main": "dist.js",
   "scripts": {
+    "build": "babel --presets @babel/preset-react index.js --out-file dist.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,10 +15,18 @@
     "react",
     "component"
   ],
+  "peerDependencies": {
+    "react": "16.x"
+  },
   "author": "Alex Wilmer",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tkoriginal/super-awesome-component/issues"
   },
-  "homepage": "https://github.com/tkoriginal/super-awesome-component#readme"
+  "homepage": "https://github.com/tkoriginal/super-awesome-component#readme",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-react": "^7.0.0"
+  }
 }
